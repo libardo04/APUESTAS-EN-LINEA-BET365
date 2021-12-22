@@ -1,4 +1,7 @@
 import React from "react";
+import { Link, } from "react-router-dom";
+
+
 
 const Nav = () => {
        return ( 
@@ -13,13 +16,21 @@ const Nav = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
              </ul>
-            <form className="d-flex">
+
+             
+
+             <form className="d-flex">
               <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+              
+              <Link to="/login" className="btn btn-success ">
               <button type="submit" className="btn btn-success ">Inicio</button>
+              </Link>
+              <Link to="/register"className="btn btn-primary">
               <button type="submit" className="btn btn-primary">Registrarse</button>
             
+              </Link>
             </form>
-
+            
           </div>
         </div>
  </nav>
@@ -27,5 +38,5 @@ const Nav = () => {
 
 
 
-};
-export default Nav;
+  };
+  export default Nav;
