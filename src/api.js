@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { getCharacter } from "./../services/api";
+import { getCharacter } from "./services/api";
 
 const Api = () => {
   const [page, setPage] = useState(1);

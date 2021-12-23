@@ -1,8 +1,8 @@
 import React from 'react';
 
-import Footer from "./../components/footer";
+import Footer from "./../components/Footer";
 
-import Header from './../components/header';
+import Header from './../components/Header';
 
 const Home = () => {
     return (
@@ -15,15 +15,15 @@ const Home = () => {
          "JUGAR SIN CONTROL CAUSA ADICCIÓN. EL JUEGO ES ENTRETENIMIENTO. JUEGA CON MODERACIÓN. PROHIBIDA LA VENTA A MENORES DE EDAD"
                                   </div>                
                 <section className="py-1">
-                    <div className="container px-5 my-0">
+                    <div className="container-center px-5 my-0">
                    
                         <div className="row gx-5">
-                        <div class="container p-7">   
+                        <div class="container-center px-5">   
                             <section class="">  
                                     <div class="row">
                                      
                                    
-                                    <div className="col-lg-3 col-md-12 mb-1 mb-md-0">
+                                    <div className="col-lg-3 col-md-9 mb-6 mb-md-0">
                                         <div
                                           class="bg-image hover-overlay ripple shadow-1-strong rounded"
                                           data-ripple-color="light"  
@@ -42,7 +42,26 @@ const Home = () => {
                                         </div>
                                     </div>
                                      
-                                    <div className="col-lg-3 col-md-12 mb-1 mb-md-0">
+                                    <div className="col-lg-1 col-md-1 mb-2 mb-md-0">
+                                        <div
+                                          className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                                          data-ripple-color="light"  
+                                          >     
+                                                <a rel="noreferrer" href="https://www.pse.com.co/inicio">
+                                              
+                                                    <div
+                                                    className="mask"
+                                                    style={{backgroundcolor:'rgba(251, 251, 251, 0.2)'}}
+                                                  ></div>
+                                                         <img className ="ng-star-inserted"
+                                                     src="img/pse1.png" alt="Pse"
+                                                     className="w-100" />
+                                                    </a>
+                                               
+                                        </div>
+                                    </div>
+
+                                    <div className="col-lg-2 col-md-6 mb-6 mb-md-0">
                                         <div
                                           className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                           data-ripple-color="light"  
@@ -60,7 +79,7 @@ const Home = () => {
                                                
                                         </div>
                                     </div>
-                                    <div className="col-lg-3 col-md-12 mb-1 mb-md-0">
+                                    <div className="col-lg-2 col-md-6 mb-6 mb-md-0">
                                         <div
                                           className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                           data-ripple-color="light"  
@@ -114,25 +133,8 @@ const Home = () => {
                                                
                                         </div>
                                     </div>
-                                    <div className="col-lg-1 col-md-7 mb-4 mb-md-0">
-                                        <div
-                                          className="bg-image hover-overlay ripple shadow-1-strong rounded"
-                                          data-ripple-color="light"  
-                                          >     
-                                                <a rel="noreferrer" href="https://www.pse.com.co/inicio">
-                                              
-                                                    <div
-                                                    className="mask"
-                                                    style={{backgroundcolor:'rgba(251, 251, 251, 0.2)'}}
-                                                  ></div>
-                                                         <img className ="ng-star-inserted"
-                                                     src="img/pse1.png" alt="Pse"
-                                                     className="w-100" />
-                                                    </a>
-                                               
-                                        </div>
-                                    </div> 
-                                    <div className="col-lg-1 col-md-8 mb-7 mb-md-0">
+                                    
+                                    <div className="col-lg-1 col-md-4 mb-7 mb-md-0">
                                         <div
                                           className="bg-image hover-overlay ripple shadow-1-strong rounded"
                                           data-ripple-color="light"  
